@@ -54,9 +54,9 @@ var reload = (message, cmd) => {
 
 bot.on("ready", async () =>{
    console.log("SelfBot Activated!");
-//     bot.user.setActivity("", { //what r u doing here
+     bot.user.setActivity("Spotify", { //what r u doing here
 //       url: "http://twitch.tv/#",
-//       type: "STREAMING" 
+       type: "LISTENING" 
 //     });
 });
 
